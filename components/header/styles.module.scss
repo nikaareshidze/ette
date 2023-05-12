@@ -1,0 +1,15 @@
+.headerContainer {
+  @apply flex justify-between items-center px-10 py-5;
+
+  .headerNavigationContainer {
+    @apply flex gap-4 uppercase text-xs font-semibold tracking-widest;
+
+    h1 {
+      @apply cursor-pointer;
+    }
+  }
+
+  .logoContainer {
+    @apply cursor-pointer;
+  }
+}
