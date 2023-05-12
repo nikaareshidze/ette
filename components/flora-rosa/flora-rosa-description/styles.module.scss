@@ -1,0 +1,27 @@
+.descriptionContainer {
+  @apply py-24 px-8 bg-[#e1887c] w-2/3 text-white text-center flex flex-col gap-10 items-center;
+
+  .descriptionTitle {
+    @apply uppercase text-xl;
+  }
+
+  .descriptionText {
+    @apply leading-7;
+  }
+
+  .productSize {
+    @apply tracking-widest uppercase;
+  }
+
+  button {
+    @apply px-4 py-2 text-[#e1887c] bg-white w-fit rounded-lg;
+  }
+
+  .descriptionPS {
+    @apply italic;
+  }
+}
+
+.floraRosaContainer {
+  @apply flex w-1/2 justify-center bg-[#f2ebe7];
+}
