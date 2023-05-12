@@ -1,0 +1,15 @@
+.theEtteDifferenceContainer {
+  @apply flex flex-col justify-center items-center bg-[#f2ebe7];
+
+  .theEtteDifferenceTitle {
+    @apply pt-16 tracking-widest text-xl font-medium uppercase;
+  }
+
+  button {
+    @apply mb-16 mt-8 px-4 py-2 text-white text-base bg-[#e1887c] uppercase rounded border border-[#e1887c];
+  }
+
+  p {
+    @apply text-center leading-7;
+  }
+}

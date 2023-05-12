@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Header, TheEtteDifference } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <TheEtteDifference />
       </main>
     </>
   );

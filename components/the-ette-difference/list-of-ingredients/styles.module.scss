@@ -1,0 +1,11 @@
+.ingredientsContainer {
+  @apply flex gap-32 my-12;
+
+  .ingredientContainer {
+    @apply flex flex-col justify-center items-center;
+
+    h1 {
+      @apply mt-4 text-base;
+    }
+  }
+}
