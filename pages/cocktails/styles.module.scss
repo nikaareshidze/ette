@@ -1,0 +1,31 @@
+.cocktailInformationContainer {
+  @apply flex justify-between px-10 py-10;
+
+  .cocktailImageContainer {
+    @apply w-[565px] h-[537px];
+
+    img {
+      @apply w-full h-full object-cover rounded-lg;
+    }
+  }
+
+  .cocktailInformation {
+    @apply px-10;
+
+    .cocktailName {
+      @apply text-lg font-bold tracking-widest py-4;
+    }
+
+    .cocktailDescription {
+      @apply text-base font-medium tracking-wide py-4 w-4/5;
+    }
+
+    .cocktailIngredientsContainer {
+      @apply my-4;
+    }
+
+    .cocktailMethodContainer {
+      @apply my-4;
+    }
+  }
+}

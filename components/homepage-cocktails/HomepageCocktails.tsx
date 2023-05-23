@@ -1,8 +1,11 @@
 import React from "react";
 import Cocktails from "@/types/cocktails";
 import styles from "./styles.module.scss";
+import { useRouter } from "next/router";
 
 export default function HomepageCocktails() {
+  const router = useRouter();
+
   return (
     <div className={styles.EtteCocktailsContainer}>
       <div className={styles.aboutEtteCocktails}>
@@ -16,7 +19,12 @@ export default function HomepageCocktails() {
       </div>
       <div className={styles.cocktailsContainer}>
         {Cocktails.map((item) => (
-          <div className={styles.cocktailContainer}>
+          <div
+            className={styles.cocktailContainer}
+            onClick={() =>
+              router.push(`/cocktails/${encodeURIComponent(item.name)}`)
+            }
+          >
             <div className={styles.cocktailImageContainer}>
               <img src={item.imageUrl} />
             </div>

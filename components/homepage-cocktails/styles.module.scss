@@ -21,7 +21,7 @@
     @apply flex gap-6 pl-16;
 
     .cocktailContainer {
-      @apply text-center;
+      @apply text-center cursor-pointer;
 
       .cocktailImageContainer {
         @apply w-60 h-80;
