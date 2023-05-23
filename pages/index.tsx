@@ -1,4 +1,9 @@
-import { FloraRosa, Header, TheEtteDifference } from "@/components";
+import {
+  FloraRosa,
+  Header,
+  HomepageCocktails,
+  TheEtteDifference,
+} from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -13,6 +18,7 @@ export default function Home() {
         <Header />
         <TheEtteDifference />
         <FloraRosa />
+        <HomepageCocktails />
       </main>
     </>
   );
