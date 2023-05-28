@@ -39,6 +39,7 @@ const CocktailPage = ({ cocktail }: { cocktail: Cocktail }) => {
               ))}
             </ul>
           </div>
+          <button>Buy Now</button>
         </div>
       </div>
     </div>

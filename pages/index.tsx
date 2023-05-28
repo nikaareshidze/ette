@@ -1,5 +1,6 @@
 import {
   FloraRosa,
+  Footer,
   Header,
   HomepageCocktails,
   TheEtteDifference,
@@ -19,6 +20,7 @@ export default function Home() {
         <TheEtteDifference />
         <FloraRosa />
         <HomepageCocktails />
+        <Footer />
       </main>
     </>
   );
